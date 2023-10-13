@@ -1,3 +1,11 @@
+# VSC-SE-DEVKIT
+
+## About this Fork
+
+This fork was made because I didn't want to use the OmniSharp extension. Instead I opted for the C# Devkit extension. Unfortunately, the csproj was not update to the new SDK style. This fork tweaks it while keeping most of the csproj intact.
+
+## Old (Slightly Adjusted) README
+
 Here are the steps to set up Visual Studio Code for Space Engineers ingame
 script development.
 
@@ -7,7 +15,8 @@ syntax checking work.
 * I'll assume you already have SE installed!
 * Install Visual Studio Code (VSC)
 * Install the following VSC Extensions
-  * install c# extension in VSC (OmniSharp)
+  * Install C# Dev Kit extension in VSC
+    _Note: In the original project, the OmniSharp extension was used._
   * install NuGet Package manager VSC Extension
 * install .net cli tools / SDK (needed?)
 * install net framwork devpack 4.6.1
